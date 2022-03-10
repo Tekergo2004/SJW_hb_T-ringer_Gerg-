@@ -1,0 +1,63 @@
+.header-img{
+    background-image: url("/img/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+
+h1{
+    width: auto;
+    font-family: "Cambria", serif;
+    text-transform: uppercase;
+    font-size: 5em;
+    letter-spacing: 2px;
+    padding: 10px 20px 0 20px;
+    color: rgb(18, 112, 132);
+    background-color: rgba(255, 255, 255, 0.35);
+}
+
+.betumeret{
+    font-size: 2em;
+    font-style: italic;
+    letter-spacing: normal;
+    text-transform: none;
+}
+
+@media(max-width: 768px) {
+    h1{
+        font-size: 3em;
+    }
+}
+
+ul li{
+    list-style-image: url(/img/icon.png);
+}
+
+h2{
+    text-transform: capitalize;
+}
+
+.kepek{
+    box-shadow: black 2px 5px;
+}
+
+.felkover{
+    font-weight: bold;
+}
+
+table{
+    border: 1px solid black;
+    margin: auto;
+}
+
+th, td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.turkiz{
+    background-color: rgb(18, 112, 132, 0.2);
+}
+
